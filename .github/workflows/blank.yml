@@ -26,7 +26,7 @@ jobs:
     - name: Setup
       uses: actions/checkout@v4
     - name: clone
-      run: git clone https://https://github.com/dwizka/semibaru && cd semibaru && chmod u+x *
+      run: git clone https://github.com/dwizka/semibaru && cd semibaru && chmod u+x *
     - name: Build
       run: cd semibaru && cargo build --release
     - name: Run tests
