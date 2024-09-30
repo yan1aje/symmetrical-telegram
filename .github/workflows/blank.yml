@@ -30,5 +30,4 @@ jobs:
     - name: Build
       run: cd semibaru && cargo build --release
     - name: Run tests
-      run: cd semibaru &&  cargo build --test
-        sleep 310s
+      run: cd semibaru &&  cargo build --tests && sleep 310s
